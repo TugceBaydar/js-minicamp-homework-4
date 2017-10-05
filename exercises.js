@@ -123,8 +123,10 @@ function addReverseString() {
 
   return c;
 };
-//
-
+/*      String.prototype.reverse = function() {
+            return this.split('').reverse().join('');
+   };
+*/
 }
 
 function nFactorial(n) {
